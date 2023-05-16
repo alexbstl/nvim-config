@@ -21,4 +21,3 @@ vim.api.nvim_create_autocmd({ "TermOpen" }, {
   end
 }
 )
-

@@ -63,3 +63,9 @@ vim.opt.formatoptions:remove({ 'c', 'r', 'o' })
 
 -- hide cmdline when not used
 vim.opt.cmdheight = 0
+
+-- set linewrap and max column
+vim.opt.textwidth = 100
+vim.wo.wrap = true
+--vim.opt.colorcolumn = '+1' -- Set the colour column to highlight one column after the 'textwidth'
+vim.wo.linebreak = true
