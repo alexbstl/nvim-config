@@ -37,8 +37,8 @@ nmap('<C-h>', '<C-W>h')
 nmap('<C-l>', '<C-W>l')
 
 -- Resize window using <shift> arrow keys
-nmap("<S-Up>", "<cmd>resize +2<CR>")
-nmap("<S-Down>", "<cmd>resize -2<CR>")
+nmap("<S-Up>", "<cmd>resize -2<CR>")
+nmap("<S-Down>", "<cmd>resize +2<CR>")
 nmap("<S-Left>", "<cmd>vertical resize -2<CR>")
 nmap("<S-Right>", "<cmd>vertical resize +2<CR>")
 
@@ -62,7 +62,6 @@ imap('<s-cr>', '<esc><Plug>SlimeSendCell<cr>i')
 -- send code with Enter and leader Enter
 vmap('<cr>', '<Plug>SlimeRegionSend')
 nmap('<leader><cr>', '<Plug>SlimeSendCell')
-
 
 -- keep selection after indent/dedent
 vmap('>', '>gv')
