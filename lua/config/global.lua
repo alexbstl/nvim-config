@@ -68,4 +68,25 @@ vim.opt.cmdheight = 0
 vim.opt.textwidth = 100
 vim.wo.wrap = true
 --vim.opt.colorcolumn = '+1' -- Set the colour column to highlight one column after the 'textwidth'
-vim.wo.linebreak = true
+--vim.wo.linebreak = true
+vim.wo.list = false
+
+--filetype plugin indent on 
+vim.api.nvim_command('filetype plugin indent on')
+
+--load vimscript stuff
+
+--[[ local Plug = vim.fn['plug#']
+vim.call('plug#begin','$HOME/.local/share/nvim/site/autoload')
+Plug 'lervag/vimtex'
+vim.call('plug#end') ]]
+
+--Vimtex Stuff
+vim.g.tex_flavor = 'latex'
+vim.g.vimtex_view_method='skim'
+vim.g.vimtex_quickfix_mode = 0
+vim.opt_local.conceallevel = 2
+vim.g.tex_conceal='abdmg'
+vim.g.vimtex_compile_progname='nvr'
+
+
