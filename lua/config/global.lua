@@ -65,7 +65,7 @@ vim.opt.formatoptions:remove({ 'c', 'r', 'o' })
 vim.opt.cmdheight = 0
 
 -- set linewrap and max column
-vim.opt.textwidth = 100
+--vim.opt.textwidth = 100
 vim.wo.wrap = true
 --vim.opt.colorcolumn = '+1' -- Set the colour column to highlight one column after the 'textwidth'
 --vim.wo.linebreak = true
@@ -81,7 +81,7 @@ vim.call('plug#begin','$HOME/.local/share/nvim/site/autoload')
 Plug 'lervag/vimtex'
 vim.call('plug#end') ]]
 
---Vimtex Stuff
+--[[ --Vimtex Stuff
 vim.g.tex_flavor = 'latex'
 if(vim.loop.os_uname().sysname=='Macunix')
 then
@@ -96,6 +96,6 @@ end
 vim.g.vimtex_quickfix_mode = 0
 vim.opt_local.conceallevel = 2
 vim.g.tex_conceal='abdmg'
-vim.g.vimtex_compile_progname='nvr'
+vim.g.vimtex_compile_progname='nvr' ]]
 
 

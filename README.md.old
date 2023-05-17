@@ -1,18 +1,22 @@
-# Alex's Nvim Configuration
+# Quarto Nvim Kickstarter
+
+Companion to <https://github.com/quarto-dev/quarto-nvim>.
 
 This requires Neovim >= **v0.9.0** (https://github.com/neovim/neovim/releases/tag/stable)
 
-Taken from various sources; largely based on the quarto-nvim-kickstarter (https://github.com/jmbuhr/quarto-nvim-kickstarter)
+## Videos
 
+Check out this playlist for a full guide and walkthrough:
+https://youtube.com/playlist?list=PLabWm-zCaD1axcMGvf7wFxJz8FZmyHSJ7
 
 ## Setup
 
 Clone this repo into `~/.config/nvim/` or copy-paste just the parts you like.
 
-You also may need to run `install_stuff.sh`.  Currently this is only configured for Mac, Ubuntu-, BSD or Arch-based Operating Systems.  I may add more in the future.  Essentially, this script just installs `fdfind` and `ripgrep` which are necessary for some search functionality within Telescope.
+If you already have your own configuration, check out `lua/plugins/quarto.lua`
+for the configuration of all plugins directly relevant to your Quarto experience.
 
-
-This configuration can make use of a "Nerd Font" for icons and symbols.
+This configuration can make use of a "Nerd Font" for icons and symbols.
 Download one here: <https://www.nerdfonts.com/> and set it as your terminal font.
 
 ### Unix, Linux Installation
