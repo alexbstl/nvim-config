@@ -42,7 +42,7 @@ rm -r ~/.local/share/nvim
 rm -r ~/.local/state/nvim
 ```
 
-## Screenshots
+<!-- ## Screenshots
 
 ![image](https://user-images.githubusercontent.com/17450586/210392216-a99815ac-1872-4c48-bf24-5a50df14c6d2.png)
 ![image](https://user-images.githubusercontent.com/17450586/210392419-3ee2b3e3-e805-4e36-99ab-6922abe3a66b.png)
@@ -56,7 +56,7 @@ Use the integrated neovim terminal to execute code chunks:
 Or combine it with [tmux-kickstarter](https://github.com/jmbuhr/tmux-kickstarter) for an even more versatile data science experience!
 
 ![image](https://user-images.githubusercontent.com/17450586/210393754-04404e62-15ab-4cb2-afba-deeefc3fec9e.png)
-
+-->
 ## Links to the plugins
 
 Some of the plugins included are:
