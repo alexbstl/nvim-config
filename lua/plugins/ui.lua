@@ -54,6 +54,7 @@ return {
     telescope.load_extension('ui-select')
     telescope.load_extension('file_browser')
     telescope.load_extension('dap')
+    --telescope.load_extension('live-grep-args')
     -- telescope.load_extension('project')
   end
   },
@@ -61,6 +62,7 @@ return {
   { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
   { 'nvim-telescope/telescope-dap.nvim' },
   { 'nvim-telescope/telescope-file-browser.nvim' },
+  -- { 'nvim-telescope/telescope-live-grep-args'},
   -- { 'nvim-telescope/telescope-project.nvim' },
   { 'nvim-lualine/lualine.nvim',
     dependencies = {
